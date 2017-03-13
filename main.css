@@ -1,1 +1,44 @@
-
+h2, h3 {
+  color: #106db3;
+}
+blockquote {
+  color: #106db3;
+}
+span.Name {
+  color: #106db3
+}
+.Comments a {
+  background-color: gray;
+  color: white;
+  padding: 2px;
+}
+footer {
+  background-color: #083452;
+  color: #687A97;
+  padding: 30px 10px;
+  border-radius: 0 0 15px 15px;
+}
+.Social a{
+  color: gray;
+}
+p{
+  color: gray;
+}
+.text {
+  color: gray;
+}
+h4 {
+  color: black;
+}
+h5 {
+  color: #08224A;
+}
+.heading3 h2{
+  color:#08224A;
+}
+.logo {
+  padding-left: 20px
+}
+h1{
+  padding-left: 100px;
+}
