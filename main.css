@@ -40,5 +40,9 @@ h5 {
   padding-left: 20px
 }
 h1{
-  padding-left: 100px;
+  padding-left: 300px;
+}
+
+.footerlinks a {
+  color: #687A97;
 }
