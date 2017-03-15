@@ -1,48 +1,120 @@
+
 h2, h3 {
   color: #106db3;
 }
 blockquote {
   color: #106db3;
 }
-span.Name {
-  color: #106db3
-}
-.Comments a {
+
+#Comments a {
   background-color: gray;
   color: white;
   padding: 2px;
 }
+
 footer {
   background-color: #083452;
   color: #687A97;
   padding: 30px 10px;
   border-radius: 0 0 15px 15px;
 }
-.Social a{
+
+#social a{
   color: gray;
 }
+
 p{
   color: gray;
 }
-.text {
-  color: gray;
-}
+
 h4 {
   color: black;
 }
+
 h5 {
   color: #08224A;
 }
-.heading3 h2{
+
+.heading3 h2 {
   color:#08224A;
-}
-.logo {
-  padding-left: 20px
-}
-h1{
-  padding-left: 300px;
+  margin: auto;
+  text-align: center;
 }
 
 .footerlinks a {
+  display: inline-block;
   color: #687A97;
+  position: relative;
+  left: 900px;
+}
+
+.logo {
+  display: inline-block;
+  position: relative;
+  left: 50px;
+}
+
+#search {
+  display: inline-block;
+  width: 50%;
+}
+
+#seperating-border {
+  border-top: 1px solid lightgray;
+  padding-top: 20px;
+
+}
+
+#wrap1 {
+  width: 1000px;
+  margin: auto;
+}
+
+#wrap2 {
+  display: inline-block;
+  width: 60%;
+  position: relative;
+  bottom: 150px;
+}
+
+#wrap3 {
+  display: inline-block;
+  width: 35%;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.icon {
+  display:inline-block;
+  width: 64px;
+  height: 64px;
+}
+
+.outer {
+  height: 350px;
+  width: auto;
+  background-image: url(images/header.jpg);
+  border-radius: 0 0 15px 15px;
+}
+
+#inner1 {
+  display: inline-block;
+  float: left;
+}
+
+#inner2 {
+  display: inline-block;
+  float: right;
+}
+
+#inner3 {
+  display: inline-block;
+  position: relative;
+  top: 100px;
+  bottom: 100px;
+  left: 300px;
+  right: 100px;
+  color: white;
 }
